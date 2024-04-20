@@ -21,9 +21,9 @@
 
   - Download and create a Metamask account.
 
-  - Once you have an account, make sure to switch to the "Goerli Test Network" in the upper right.
+  - Once you have an account, make sure to switch to the "sepolia Test Network" in the upper right.
 
-  - Acquire some GoerliETH
+  - Acquire some SepoliaETH
   
 
   From Alchemy's dashboard,
@@ -32,7 +32,7 @@
 
     2. Provide a Name and Description for your app.
 
-    3. For Chain, select Ethereum and for Network select Goerli.
+    3. For Chain, select Ethereum and for Network select sepolia.
 
     4. Click the Create App button.
 
@@ -58,7 +58,7 @@ scripts/deploy.js
 
        - npx hardhat compile
 
-       - npx hardhat run scripts/deploy.js --network goerli
+       - npx hardhat run scripts/deploy.js --network sepolia
 
   OR
 
